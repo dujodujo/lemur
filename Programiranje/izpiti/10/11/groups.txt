@@ -1,0 +1,14 @@
+root:x:0:root
+bin:x:1:root,bin,daemon
+daemon:x:2:root,bin,daemon
+sys:x:3:root,bin,adm
+adm:x:4:root,adm,daemon
+tty:x:5:
+disk:x:6:root
+ana:x:500:ana
+berta:x:501:berta
+cilka:x:502:cilka
+dani:x:503:dani
+ordinary:x:504:ana,berta,cilka,dani
+taccess:x:505:berta,cilka
+wusers:x:506:ana,cilka
