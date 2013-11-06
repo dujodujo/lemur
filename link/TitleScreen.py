@@ -3,6 +3,7 @@ import Game as game
 import InputEvent as ie
 import Box as b
 import GameClock as gc
+import os
 
 class TitleScreen:
     def __init__(self):
@@ -33,7 +34,7 @@ class TitleScreen:
                                 self.quit()
 
     def initBoxes(self):
-        self.boxesImage=pygame.image.load("boxes.png")
+        self.boxesImage=pygame.image.load(os.getcwd() + "\\data\\sprites\\boxes.png")
         boxes=[[pygame.Rect(0, 0, 260, 80), "SinglePlayer"],
                [pygame.Rect(0, 80, 260, 80), "HighScores"],
                [pygame.Rect(0, 160, 260, 80), "Exit"]]

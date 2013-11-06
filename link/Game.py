@@ -1,4 +1,4 @@
-import sys, pygame
+import sys, pygame, os
 import Player as p
 import Board as board
 import Vector as vector
@@ -34,7 +34,8 @@ class Game:
         self.player=p.Player(pygame.Rect(100, 100, 24, 32))
 
     def initBackGround(self):
-        self.backgroundImage=pygame.image.load('background.png').convert()
+        background = os.getcwd() + "\\data\\"
+        self.backgroundImage=pygame.image.load(background + 'background.png').convert()
         self.backgroundImage=pygame.transform.scale(self.backgroundImage, self.size)
 
     def run(self):

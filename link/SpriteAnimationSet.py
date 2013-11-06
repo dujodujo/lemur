@@ -21,7 +21,7 @@ class SpriteAnimationSet:
                 self.spriteSurfaces[name]=surface
 
     def loadAnimations(self):
-        with open('animations.json') as f:
+        with open(os.getcwd() + "\\data\\" + 'animations.json') as f:
             self.animations=json.load(f)
 
     def initAnimations(self):

@@ -4,7 +4,7 @@ import Vector as  vec
 
 class Sprite():
     def __init__(self):
-        self.image=pygame.image.load("green.png").convert()
+        self.image=pygame.image.load("data\green.png").convert()
         self.rect=pygame.Rect(100, 100, 32, 32)
         x, y, w, h=self.rect
         self.speed=10
