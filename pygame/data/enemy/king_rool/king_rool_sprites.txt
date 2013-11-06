@@ -1,0 +1,6 @@
+king_rool_laughing.png,5
+king_rool_exploding.png,4
+king_rool.png,1
+king_rool_face.png,1
+king_rool_stopping.png,4
+king_rool_snapping.png,6

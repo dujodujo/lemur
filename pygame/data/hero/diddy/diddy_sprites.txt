@@ -1,0 +1,6 @@
+diddy_standing.png,7
+diddy_wave.png,4
+diddy_scratching.png,7
+diddy_jumping.png,6
+diddy_face.png,1
+diddy.png,1

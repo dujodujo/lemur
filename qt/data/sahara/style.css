@@ -1,0 +1,91 @@
+MiniWindow QPushButton {
+  color: #C1A76D;
+  border: 1px solid #A7811C;
+  border-radius: 0px;
+  background-color: white;
+  min-height: 25px;
+  min-width: 30px;
+}
+
+#sendButton{
+  color: #FEEBA7;
+  border: 1px solid #AD8B35;
+  border-radius: 4px;
+  background-color: white;
+  min-width: 80px;
+  min-height: 23px;
+  padding: 2px;
+}
+
+#sendButton:disabled{
+  color: #FEEDD3;
+  border: 1px solid #F7D46D;
+  border-radius: 4px;
+  background-color: #F7D46D;
+  min-width: 80px;
+  min-height: 23px;
+  padding: 2px;
+}
+
+#receive_button
+{
+  color: #FEEBA7;
+  border: 1px solid #AD8B35;
+  border-radius: 4px;
+  background-color: #F7D46D;
+  min-height: 25px;
+  min-width: 30px;
+}          
+#receive_button[isActive=true]
+{
+  color: #FEEBA7;
+  background-color: #F7D46D;
+} 
+
+#addressInput, #amount_input
+{
+    color: #000;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #CBAE69;
+    width: 225px;
+}
+
+#addressInput[isValid=true]
+{
+  color: #4D9948;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #CBAE69;
+  width: 225px;
+  margin-top: 4px;
+}
+
+#addressInput[isValid=false]
+{
+  color: #CE4141;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #CBAE69;
+  width: 225px;
+  margin-top: 4px;
+}
+
+#addressInput[isValid=placeholder]
+{
+  color: #DEC58D;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #CBAE69;
+  width: 225px;
+  margin-top: 4px;
+}
+#balanceLabel
+{
+    color: #7E5907;
+}
+
+#history
+{
+    color: #8B6914;
+}

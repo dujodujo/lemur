@@ -1,0 +1,43 @@
+{
+	"animations": [{
+		"animation": "standing",
+		"directions": 4,
+		"numFrames": 1,
+		"image": "link",
+		"frameDelay": 100,
+		"limited": false,
+		"frames": [0,0,24,32]
+	},{
+		"animation": "walking",
+		"directions": 4,
+		"numFrames": 8,
+		"image": "link",
+		"frameDelay": 100,
+		"limited": false,
+		"frames": [0,0,24,32]
+	},{
+		"animation": "dying",
+		"directions": 1,
+		"numFrames": 6,
+		"image": "link",
+		"frameDelay": 225,
+		"limited": true,
+		"frames": [0,128,24,32]
+	},{
+		"animation": "placing",
+		"directions": 4,
+		"numFrames": 6,
+		"image": "link",
+		"frameDelay": 250,
+		"limited": false,
+		"frames": [0,160,24,32]
+	},{
+		"animation": "jumping",
+		"directions": 4,
+		"numFrames": 1,
+		"image": "link",
+		"frameDelay": 100,
+		"limited": true,
+		"frames": [120,256,24,32]
+	}]
+}

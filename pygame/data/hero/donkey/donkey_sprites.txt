@@ -1,0 +1,7 @@
+donkey_exploding.png,7
+donkey_clapping.png,4
+donkey_beating.png,14
+donkey_shaking.png,5
+donkey_pounding.png,10
+donkey_face.png,1
+donkey.png,1
